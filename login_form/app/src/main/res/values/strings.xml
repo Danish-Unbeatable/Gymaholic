@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Book  Weiser</string>
+    <string name="username">Username</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Not_registered">Not Registered</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="Register">Register</string>
+    <string name="login">LOGIN</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="s">
+<br>
+    Danish Shaikh-9890032075\n
+</br>
+        <br>
+    Seenin Sayyed-7755923808\n
+</br>
+        <br>
+    Niyati Shah-9373938437\n
+</br>
+        <br>
+    Shraddha Sonawane-7447228193\n
+</br>
+
+    </string>
+
+
+</resources>

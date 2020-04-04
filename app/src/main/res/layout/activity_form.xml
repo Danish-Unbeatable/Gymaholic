@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form"
+    android:background="@drawable/back">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/book"
+                android:layout_width="404dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="BOOK DETAILS"
+                android:layout_marginRight="45dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/book_name"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Name of Book"
+                android:layout_gravity="center"
+                ></EditText>
+
+            <EditText
+                android:id="@+id/edition"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:hint="Edition"
+                android:layout_gravity="center"
+                ></EditText>
+
+
+            <EditText
+                android:id="@+id/publication"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:hint="Publication"
+                ></EditText>
+
+
+            <EditText
+                android:id="@+id/branch"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:hint="Branch Name"
+                ></EditText>
+
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:hint="Price"
+                android:layout_gravity="center"
+                ></EditText>
+
+            <TextView
+                android:layout_width="404dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="PERSONAL DETAILS"
+                android:layout_marginRight="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/name_seller"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:hint="Name"></EditText>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:hint="Email id"></EditText>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:hint="Address"></EditText>
+
+            <EditText
+                android:id="@+id/phno"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_round"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:hint="Contact no"
+                ></EditText>
+
+            <Button
+                android:id="@+id/sell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_round"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="Submit"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".RegisterActivity">
+
+    <EditText
+    android:id="@+id/edittext_username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp"
+    android:background="@drawable/edit_round"
+    android:drawableLeft="@drawable/username"
+    android:hint="Email Id.."
+        android:paddingLeft="2dp" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/password"
+        android:hint="Password.."
+        android:inputType="textPassword"/>
+
+
+    <EditText
+        android:id="@+id/edittext_confpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/password"
+        android:hint="Confirm Password..
+"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/edittext_Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round"
+        android:text="@string/Register" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="@string/already_registered"
+            />
+
+
+        <Button
+            android:id="@+id/edittext_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_round"
+            android:paddingLeft="10dp"
+            android:text="@string/login"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

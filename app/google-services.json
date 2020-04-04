@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "157561100877",
+    "firebase_url": "https://loginform-fc4e9.firebaseio.com",
+    "project_id": "loginform-fc4e9",
+    "storage_bucket": "loginform-fc4e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157561100877:android:91c3cc128cf5b6be0cda04",
+        "android_client_info": {
+          "package_name": "com.example.login_form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157561100877-64oan5rne765b9k2r9ie2h5k81grcivm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login_form",
+            "certificate_hash": "e9d3a7f63e37e83a54a81d7e7ec88b4b888e5532"
+          }
+        },
+        {
+          "client_id": "157561100877-32fhhkg3ei310kda8oevbr02ou70p6ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANnwrBoumNDnHW2FAPvMRA8KWNtmKvkUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157561100877-32fhhkg3ei310kda8oevbr02ou70p6ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

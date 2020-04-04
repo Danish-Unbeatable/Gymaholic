@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back">
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/edit_round"
+
+        android:drawableLeft="@drawable/username"
+        android:hint="Email Id.."
+
+
+        android:paddingLeft="2dp" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword"
+
+        android:hint="Password.." />
+
+    <Button
+        android:id="@+id/edittext_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round"
+        android:text="@string/Login" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="@string/not_registered"
+            />
+
+
+        <Button
+            android:id="@+id/edittext_register"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/button_round"
+            android:paddingLeft="10dp"
+            android:text="@string/register"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/contactus"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/button_round"
+        android:text="Contact Us"></Button>
+
+
+
+</LinearLayout>
+
+
+
